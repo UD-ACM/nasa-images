@@ -9,6 +9,7 @@ function updateObject() {
             title.innerText = spaceObject.title;
             desc.innerText = spaceObject.explanation;
             image.src = spaceObject.hdurl;
+            image.alt = spaceObject.title;
         }
     )
 }
